@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C3E4FF542CC2B29A0051FA64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3E4FF3A2CC2B2990051FA64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3E4FF412CC2B2990051FA64;
+			remoteInfo = PureSnipTrans;
+		};
+		C3E4FF5E2CC2B29A0051FA64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3E4FF3A2CC2B2990051FA64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3E4FF412CC2B2990051FA64;
+			remoteInfo = PureSnipTrans;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3E4FF422CC2B2990051FA64 /* PureSnipTrans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureSnipTrans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E4FF532CC2B29A0051FA64 /* PureSnipTransTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PureSnipTransTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E4FF5D2CC2B29A0051FA64 /* PureSnipTransUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PureSnipTransUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C3E4FF442CC2B2990051FA64 /* PureSnipTrans */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PureSnipTrans;
+			sourceTree = "<group>";
+		};
+		C3E4FF562CC2B29A0051FA64 /* PureSnipTransTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PureSnipTransTests;
+			sourceTree = "<group>";
+		};
+		C3E4FF602CC2B29A0051FA64 /* PureSnipTransUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PureSnipTransUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3E4FF3F2CC2B2990051FA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E4FF502CC2B29A0051FA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E4FF5A2CC2B29A0051FA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3E4FF392CC2B2990051FA64 = {
+			isa = PBXGroup;
+			children = (
+				C3E4FF442CC2B2990051FA64 /* PureSnipTrans */,
+				C3E4FF562CC2B29A0051FA64 /* PureSnipTransTests */,
+				C3E4FF602CC2B29A0051FA64 /* PureSnipTransUITests */,
+				C3E4FF432CC2B2990051FA64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3E4FF432CC2B2990051FA64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3E4FF422CC2B2990051FA64 /* PureSnipTrans.app */,
+				C3E4FF532CC2B29A0051FA64 /* PureSnipTransTests.xctest */,
+				C3E4FF5D2CC2B29A0051FA64 /* PureSnipTransUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3E4FF412CC2B2990051FA64 /* PureSnipTrans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E4FF672CC2B29A0051FA64 /* Build configuration list for PBXNativeTarget "PureSnipTrans" */;
+			buildPhases = (
+				C3E4FF3E2CC2B2990051FA64 /* Sources */,
+				C3E4FF3F2CC2B2990051FA64 /* Frameworks */,
+				C3E4FF402CC2B2990051FA64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C3E4FF442CC2B2990051FA64 /* PureSnipTrans */,
+			);
+			name = PureSnipTrans;
+			packageProductDependencies = (
+			);
+			productName = PureSnipTrans;
+			productReference = C3E4FF422CC2B2990051FA64 /* PureSnipTrans.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3E4FF522CC2B29A0051FA64 /* PureSnipTransTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E4FF6A2CC2B29A0051FA64 /* Build configuration list for PBXNativeTarget "PureSnipTransTests" */;
+			buildPhases = (
+				C3E4FF4F2CC2B29A0051FA64 /* Sources */,
+				C3E4FF502CC2B29A0051FA64 /* Frameworks */,
+				C3E4FF512CC2B29A0051FA64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3E4FF552CC2B29A0051FA64 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C3E4FF562CC2B29A0051FA64 /* PureSnipTransTests */,
+			);
+			name = PureSnipTransTests;
+			packageProductDependencies = (
+			);
+			productName = PureSnipTransTests;
+			productReference = C3E4FF532CC2B29A0051FA64 /* PureSnipTransTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3E4FF5C2CC2B29A0051FA64 /* PureSnipTransUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E4FF6D2CC2B29A0051FA64 /* Build configuration list for PBXNativeTarget "PureSnipTransUITests" */;
+			buildPhases = (
+				C3E4FF592CC2B29A0051FA64 /* Sources */,
+				C3E4FF5A2CC2B29A0051FA64 /* Frameworks */,
+				C3E4FF5B2CC2B29A0051FA64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3E4FF5F2CC2B29A0051FA64 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C3E4FF602CC2B29A0051FA64 /* PureSnipTransUITests */,
+			);
+			name = PureSnipTransUITests;
+			packageProductDependencies = (
+			);
+			productName = PureSnipTransUITests;
+			productReference = C3E4FF5D2CC2B29A0051FA64 /* PureSnipTransUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3E4FF3A2CC2B2990051FA64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C3E4FF412CC2B2990051FA64 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C3E4FF522CC2B29A0051FA64 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C3E4FF412CC2B2990051FA64;
+					};
+					C3E4FF5C2CC2B29A0051FA64 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C3E4FF412CC2B2990051FA64;
+					};
+				};
+			};
+			buildConfigurationList = C3E4FF3D2CC2B2990051FA64 /* Build configuration list for PBXProject "PureSnipTrans" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3E4FF392CC2B2990051FA64;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C3E4FF432CC2B2990051FA64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3E4FF412CC2B2990051FA64 /* PureSnipTrans */,
+				C3E4FF522CC2B29A0051FA64 /* PureSnipTransTests */,
+				C3E4FF5C2CC2B29A0051FA64 /* PureSnipTransUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3E4FF402CC2B2990051FA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E4FF512CC2B29A0051FA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E4FF5B2CC2B29A0051FA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3E4FF3E2CC2B2990051FA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E4FF4F2CC2B29A0051FA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E4FF592CC2B29A0051FA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3E4FF552CC2B29A0051FA64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3E4FF412CC2B2990051FA64 /* PureSnipTrans */;
+			targetProxy = C3E4FF542CC2B29A0051FA64 /* PBXContainerItemProxy */;
+		};
+		C3E4FF5F2CC2B29A0051FA64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3E4FF412CC2B2990051FA64 /* PureSnipTrans */;
+			targetProxy = C3E4FF5E2CC2B29A0051FA64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C3E4FF652CC2B29A0051FA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3E4FF662CC2B29A0051FA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C3E4FF682CC2B29A0051FA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PureSnipTrans/PureSnipTrans.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PureSnipTrans/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacApp.PureSnipTrans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C3E4FF692CC2B29A0051FA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PureSnipTrans/PureSnipTrans.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PureSnipTrans/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacApp.PureSnipTrans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C3E4FF6B2CC2B29A0051FA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacApp.PureSnipTransTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PureSnipTrans.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PureSnipTrans";
+			};
+			name = Debug;
+		};
+		C3E4FF6C2CC2B29A0051FA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacApp.PureSnipTransTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PureSnipTrans.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PureSnipTrans";
+			};
+			name = Release;
+		};
+		C3E4FF6E2CC2B29A0051FA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacApp.PureSnipTransUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PureSnipTrans;
+			};
+			name = Debug;
+		};
+		C3E4FF6F2CC2B29A0051FA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MacApp.PureSnipTransUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PureSnipTrans;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3E4FF3D2CC2B2990051FA64 /* Build configuration list for PBXProject "PureSnipTrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E4FF652CC2B29A0051FA64 /* Debug */,
+				C3E4FF662CC2B29A0051FA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E4FF672CC2B29A0051FA64 /* Build configuration list for PBXNativeTarget "PureSnipTrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E4FF682CC2B29A0051FA64 /* Debug */,
+				C3E4FF692CC2B29A0051FA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E4FF6A2CC2B29A0051FA64 /* Build configuration list for PBXNativeTarget "PureSnipTransTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E4FF6B2CC2B29A0051FA64 /* Debug */,
+				C3E4FF6C2CC2B29A0051FA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E4FF6D2CC2B29A0051FA64 /* Build configuration list for PBXNativeTarget "PureSnipTransUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E4FF6E2CC2B29A0051FA64 /* Debug */,
+				C3E4FF6F2CC2B29A0051FA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3E4FF3A2CC2B2990051FA64 /* Project object */;
+}
