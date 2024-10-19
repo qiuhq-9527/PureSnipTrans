@@ -8,7 +8,7 @@
 
 ## 产品演示
 
-![Demo演示](/PureSnipTrans/PureSnipTrans/Preview%20Content/Demo演示.gif)
+![Demo演示](PureSnipTrans/Preview Content/Demo演示.gif)
 
 
 
