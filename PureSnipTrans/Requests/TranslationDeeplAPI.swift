@@ -27,7 +27,7 @@ enum DeepLTranslationError: Error {
 }
 
 class DeepLTranslationAPI {
-    private let apiKey = "填入Deepl的APIKEY"
+    private let apiKey = "填入Deepl的ApiKey"
     private let baseURL = "https://api-free.deepl.com/v2/translate"
     
     func translateTexts(_ texts: [String], sourceLanguage: String = "EN", targetLanguage: String = "ZH", completion: @escaping (Result<DeepLTranslation, DeepLTranslationError>) -> Void) {
